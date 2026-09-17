@@ -27,7 +27,6 @@ pipeline {
         
                 stage('run tests'){
                     steps {
-                    
                         sh 'bru run --env-file environments/preprod.yml --reporter-junit allure-results/Test-results.xml'}
                 }
             }
