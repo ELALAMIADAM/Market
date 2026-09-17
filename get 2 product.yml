@@ -1,0 +1,41 @@
+info:
+  name: get 2 product
+  type: http
+  seq: 3
+
+http:
+  method: GET
+  url: "{{URL}}/public/products"
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        test("verify code status 200",function(){
+          expect(200).equals(res.getStatus())
+        })
+        let list_product =res.getBody().products;
+
+
+
+        let randomid =Math.floor(Math.random()*list_product.length)
+
+        while(list_product[randomid].stock<=4){
+          randomid =Math.floor(Math.random()*list_product.length)
+        }
+        bru.setCollectionVar("id1", list_product[randomid].id)
+        bru.setCollectionVar("qt1", list_product[randomid].stock)
+        let randomid2 = Math.floor(Math.random()*list_product.length)
+        while(randomid == randomid2 || list_product[randomid2].stock<=4){
+          randomid2 = Math.floor(Math.random()*list_product.length)
+        }
+        bru.setCollectionVar("id2", list_product[randomid2].id)
+        bru.setCollectionVar("qt2", list_product[randomid2].stock)
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

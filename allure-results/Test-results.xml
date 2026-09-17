@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="CREATE USER" file="CREATE USER.yml" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-09-17T09:28:33.290" hostname="OnePiece" time="0.453">
+    <testcase name="code status 201" status="pass" classname="CREATE USER" time="0.226"/>
+    <testcase name="body res=req" status="pass" classname="CREATE USER" time="0.226"/>
+  </testsuite>
+  <testsuite name="login" file="login.yml" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-09-17T09:28:33.293" hostname="OnePiece" time="0.257">
+    <testcase name="code status 200" status="pass" classname="login" time="0.128"/>
+    <testcase name="body res=req" status="pass" classname="login" time="0.128"/>
+  </testsuite>
+  <testsuite name="get 2 product" file="get 2 product.yml" errors="0" failures="0" skipped="0" tests="1" timestamp="2026-09-17T09:28:33.293" hostname="OnePiece" time="0.312">
+    <testcase name="verify code status 200" status="pass" classname="get 2 product" time="0.312"/>
+  </testsuite>
+  <testsuite name="add product 1 on cart" file="add product 1 on cart.yml" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-09-17T09:28:33.293" hostname="OnePiece" time="0.581">
+    <testcase name="code status 201" status="pass" classname="add product 1 on cart" time="0.290"/>
+    <testcase name="body res=req" status="pass" classname="add product 1 on cart" time="0.290"/>
+  </testsuite>
+  <testsuite name="add product 2 on cart " file="add product 2 on cart.yml" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-09-17T09:28:33.293" hostname="OnePiece" time="0.616">
+    <testcase name="code status 201" status="pass" classname="add product 2 on cart" time="0.308"/>
+    <testcase name="body res=req" status="pass" classname="add product 2 on cart" time="0.308"/>
+  </testsuite>
+  <testsuite name="valider la commande" file="valider la commande.yml" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-09-17T09:28:33.293" hostname="OnePiece" time="0.362">
+    <testcase name="code status 201" status="pass" classname="valider la commande" time="0.181"/>
+    <testcase name="body res=req" status="pass" classname="valider la commande" time="0.181"/>
+  </testsuite>
+  <testsuite name="pay commande" file="pay commande.yml" errors="0" failures="0" skipped="0" tests="2" timestamp="2026-09-17T09:28:33.293" hostname="OnePiece" time="1.259">
+    <testcase name="code status 200" status="pass" classname="pay commande" time="0.629"/>
+    <testcase name="body res=req" status="pass" classname="pay commande" time="0.629"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,30 @@
+info:
+  name: pay commande
+  type: http
+  seq: 7
+
+http:
+  method: POST
+  url: "{{URL}}/public/orders/{{id_order}}/pay"
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        test("code status 200",()=>{
+          expect(200).equals(res.getStatus())
+        })
+        test("body res=req",function(){
+          let body_req = req.getBody();
+          let body_res = res.getBody();
+          expect("payee").equals(body_res.order_status)
+          
+        })
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

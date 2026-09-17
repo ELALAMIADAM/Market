@@ -1,0 +1,61 @@
+opencollection: 1.0.0
+
+info:
+  name: Market
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  auth:
+    type: bearer
+    token: "{{token}}"
+  variables:
+    - name: email
+      value: Quinten.Tremblay56@gmail.com
+    - name: password
+      value: UcUWAqvUhSPzTl2
+    - name: token
+      value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIxNiwicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2MzczMDksImV4cCI6MTc4OTY0MDkwOSwianRpIjoiODRiODdhZWE1ZjYwNjcxZjk1ZjExM2I2Mjc3YTkyNzIifQ.BHZIGJ4nFAVSBEy_dXkjE9DsPOHI9gi5GhHGfVEJghM
+    - name: id1
+      value:
+        type: number
+        data: "456"
+    - name: id2
+      value:
+        type: number
+        data: "142"
+    - name: qt1
+      value:
+        type: number
+        data: "7"
+    - name: qt2
+      value:
+        type: number
+        data: "442"
+    - name: qte1
+      value:
+        type: number
+        data: "6"
+    - name: qte2
+      value:
+        type: number
+        data: "185"
+    - name: id_order
+      value:
+        type: number
+        data: "309"
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git

@@ -1,0 +1,30 @@
+info:
+  name: valider la commande
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: https://api.efi-academy.com/user-api/public/orders
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        test("code status 201",()=>{
+          expect(201).equals(res.getStatus())
+        })
+        test("body res=req",function(){
+          let body_res = res.getBody();
+          expect("en_attente").equals(body_res.order.status)
+          expect(2).equals(body_res.order.items.length)
+          bru.setCollectionVar("id_order", body_res.order.id)
+        })
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

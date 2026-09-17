@@ -1,0 +1,42 @@
+info:
+  name: "add product 2 on cart "
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: "{{URL}}/public/cart"
+  body:
+    type: json
+    data: |-
+      {
+        "product_id": {{id2}},
+        "quantity": {{qte2}}
+      }
+  auth: inherit
+
+runtime:
+  scripts:
+    - type: before-request
+      code: |-
+        let qte2 = Math.floor(Math.random()*(bru.getCollectionVar("qt2")))+1;
+        bru.setCollectionVar("qte2", qte2)
+    - type: after-response
+      code: |-
+        test("code status 201",()=>{
+          expect(201).equals(res.getStatus())
+        })
+        test("body res=req",function(){
+          let body_req = req.getBody();
+          let body_res = res.getBody();
+          expect(body_req.product_id).equals(body_res.cart[1].product_id)
+          expect(body_req.quantity).equals(body_res.cart[1].quantity)
+          
+        })
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
