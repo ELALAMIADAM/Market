@@ -19,7 +19,7 @@ runtime:
   scripts:
     - type: before-request
       code: |-
-        let qte1 = Math.floor(Math.random()*(bru.getCollectionVar("qt1"))+1;
+        let qte1 = Math.floor(Math.random()*(bru.getCollectionVar("qt1")))+1;
         bru.setCollectionVar("qte1", qte1)
     - type: after-response
       code: |-

@@ -20,39 +20,39 @@ request:
     token: "{{token}}"
   variables:
     - name: email
-      value: Quinten.Tremblay56@gmail.com
+      value: Idell.Hartmann18@yahoo.com
     - name: password
-      value: UcUWAqvUhSPzTl2
+      value: DZTTcGWIoT64pK4
     - name: token
-      value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIxNiwicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2MzczMDksImV4cCI6MTc4OTY0MDkwOSwianRpIjoiODRiODdhZWE1ZjYwNjcxZjk1ZjExM2I2Mjc3YTkyNzIifQ.BHZIGJ4nFAVSBEy_dXkjE9DsPOHI9gi5GhHGfVEJghM
+      value: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2Mzg0MzEsImV4cCI6MTc4OTY0MjAzMSwianRpIjoiOTNhZTVmNzYwYWIwNzIzMWI3NDk2NDg2OWViYWU0Y2IifQ.cn_ppt08okjMth7zB__EykcuzAvdLkXCDpRk1ndW7Lc
     - name: id1
       value:
         type: number
-        data: "456"
+        data: "617"
     - name: id2
       value:
         type: number
-        data: "142"
+        data: "149"
     - name: qt1
       value:
         type: number
-        data: "7"
+        data: "57"
     - name: qt2
       value:
         type: number
-        data: "442"
+        data: "25"
     - name: qte1
       value:
         type: number
-        data: "6"
+        data: "13"
     - name: qte2
       value:
         type: number
-        data: "185"
+        data: "1"
     - name: id_order
       value:
         type: number
-        data: "309"
+        data: "346"
 bundled: false
 extensions:
   bruno:

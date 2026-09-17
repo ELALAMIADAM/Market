@@ -13,16 +13,16 @@
             "Authorization": "Bearer ********",
             "content-type": "application/json"
           },
-          "data": "{\n  \"name\": \"Leah Boyle\",\n  \"email\": \"Quinten.Tremblay56@gmail.com\",\n  \"password\": \"UcUWAqvUhSPzTl2\",\n  \"role\": \"user\"\n}"
+          "data": "{\n  \"name\": \"Guadalupe Schultz\",\n  \"email\": \"Idell.Hartmann18@yahoo.com\",\n  \"password\": \"DZTTcGWIoT64pK4\",\n  \"role\": \"user\"\n}"
         },
         "response": {
           "status": 201,
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:29 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:11 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "148",
+            "content-length": "153",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -34,16 +34,16 @@
             "success": true,
             "message": "Compte créé avec succès.",
             "user": {
-              "id": 2216,
-              "name": "Leah Boyle",
-              "email": "Quinten.Tremblay56@gmail.com",
+              "id": 2233,
+              "name": "Guadalupe Schultz",
+              "email": "Idell.Hartmann18@yahoo.com",
               "role": "user"
             }
           },
           "url": "https://api.efi-academy.com/user-api/public/register",
-          "responseTime": 258,
-          "duration": 258,
-          "size": 148
+          "responseTime": 405,
+          "duration": 405,
+          "size": 153
         },
         "error": null,
         "status": "pass",
@@ -54,16 +54,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "hGgTbVO_77cBWqU0ng82B"
+            "uid": "49yLt8qX_-b9j8FlGe8rc"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "tAXjlDROYXUE_PCK7O3uq"
+            "uid": "GmKHS6wG2BvIsKspijmSC"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.452864,
+        "runDuration": 0.6091134,
         "name": "CREATE USER",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\CREATE USER",
         "path": "CREATE USER.yml",
@@ -79,16 +79,16 @@
           "headers": {
             "content-type": "application/json"
           },
-          "data": "{\n  \"email\": \"Quinten.Tremblay56@gmail.com\",\n  \"password\": \"UcUWAqvUhSPzTl2\"\n}"
+          "data": "{\n  \"email\": \"Idell.Hartmann18@yahoo.com\",\n  \"password\": \"DZTTcGWIoT64pK4\"\n}"
         },
         "response": {
           "status": 200,
           "statusText": "OK",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:29 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:11 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "430",
+            "content-length": "435",
             "connection": "close",
             "x-powered-by": "PHP/8.2.31",
             "access-control-allow-origin": "*",
@@ -100,18 +100,18 @@
             "message": "Connexion réussie.",
             "token_type": "Bearer",
             "expires_in": 3600,
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIxNiwicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2MzczMDksImV4cCI6MTc4OTY0MDkwOSwianRpIjoiODRiODdhZWE1ZjYwNjcxZjk1ZjExM2I2Mjc3YTkyNzIifQ.BHZIGJ4nFAVSBEy_dXkjE9DsPOHI9gi5GhHGfVEJghM",
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2Mzg0MzEsImV4cCI6MTc4OTY0MjAzMSwianRpIjoiOTNhZTVmNzYwYWIwNzIzMWI3NDk2NDg2OWViYWU0Y2IifQ.cn_ppt08okjMth7zB__EykcuzAvdLkXCDpRk1ndW7Lc",
             "user": {
-              "id": 2216,
-              "name": "Leah Boyle",
-              "email": "Quinten.Tremblay56@gmail.com",
+              "id": 2233,
+              "name": "Guadalupe Schultz",
+              "email": "Idell.Hartmann18@yahoo.com",
               "role": "user"
             }
           },
           "url": "https://api.efi-academy.com/user-api/public/login",
-          "responseTime": 187,
-          "duration": 187,
-          "size": 430
+          "responseTime": 251,
+          "duration": 251,
+          "size": 435
         },
         "error": null,
         "status": "pass",
@@ -122,16 +122,16 @@
           {
             "description": "code status 200",
             "status": "pass",
-            "uid": "gieb1kJ9Ij7tb7KoLh1TD"
+            "uid": "jGiG3PfckpwJOd8M_gH8E"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "Puwo7dEDs4lLaoepVgS7Z"
+            "uid": "XHrGTJ1jBYWcGk5Jd9N-K"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.256717,
+        "runDuration": 0.3358851,
         "name": "login",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\login",
         "path": "login.yml",
@@ -154,7 +154,7 @@
           "statusText": "OK",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:30 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:12 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "close",
@@ -226,7 +226,7 @@
                 "name": "Handmade Bronze Salad",
                 "description": "Shoes",
                 "price": 32.72,
-                "stock": 17,
+                "stock": 16,
                 "image_url": "https://sardonic-essence.com/",
                 "created_at": "2026-09-16 14:06:52"
               },
@@ -604,7 +604,7 @@
                 "name": "Licensed Metal Sausages",
                 "description": "Gloves",
                 "price": 75.22,
-                "stock": 13,
+                "stock": 12,
                 "image_url": "https://worthless-forage.com",
                 "created_at": "2026-09-16 13:00:41"
               },
@@ -613,7 +613,7 @@
                 "name": "Soft Ceramic Table",
                 "description": "Salad",
                 "price": 29.46,
-                "stock": 45,
+                "stock": 13,
                 "image_url": "https://accomplished-advertisement.net",
                 "created_at": "2026-09-16 13:00:08"
               },
@@ -766,7 +766,7 @@
                 "name": "Webcam HD",
                 "description": "Webcam 1080p",
                 "price": 49.9,
-                "stock": 30,
+                "stock": 29,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 12:43:44"
               },
@@ -1036,7 +1036,7 @@
                 "name": "Webcam HD",
                 "description": "Webcam 1080p",
                 "price": 49.9,
-                "stock": 30,
+                "stock": 13,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 11:55:05"
               },
@@ -1333,7 +1333,7 @@
                 "name": "Unbranded Ceramic Towels",
                 "description": "Pants",
                 "price": 50.5,
-                "stock": 22,
+                "stock": 20,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 10:20:59"
               },
@@ -1378,7 +1378,7 @@
                 "name": "Licensed Rubber Mouse",
                 "description": "Bacon",
                 "price": 31.1,
-                "stock": 54,
+                "stock": 14,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 10:18:04"
               },
@@ -1513,7 +1513,7 @@
                 "name": "Mr.",
                 "description": "Mrs.",
                 "price": 49.9,
-                "stock": 30,
+                "stock": 5,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 09:55:21"
               },
@@ -1972,7 +1972,7 @@
                 "name": "Incredible Steel Chair",
                 "description": "transmitting the card won't do anything, we need to parse the back-end AGP panel!",
                 "price": 85.9,
-                "stock": 7,
+                "stock": 2,
                 "image_url": "http://placeimg.com/640/480",
                 "created_at": "2026-08-04 09:56:30"
               },
@@ -2107,7 +2107,7 @@
                 "name": "Gorgeous Steel Tuna",
                 "description": "Et recusandae aliquid omnis dolores porro adipisci exercitationem ex saepe. Ipsum explicabo ut sed qui maiores harum aut. Eos voluptas vel pariatur minima similique rem. Dolor labore culpa beatae voluptatibus. Minima quisquam recusandae illum consequuntur qui ipsum. Aliquid magnam assumenda qui illo.",
                 "price": 69.5,
-                "stock": 5,
+                "stock": 4,
                 "image_url": "http://placeimg.com/640/480",
                 "created_at": "2026-08-04 09:50:17"
               },
@@ -2116,7 +2116,7 @@
                 "name": "Gorgeous Granite Tuna",
                 "description": "Totam pariatur nemo nihil iure dolorem autem omnis in. Sed hic et molestias a dolorum. Voluptatum animi incidunt rem veritatis enim.",
                 "price": 59.19,
-                "stock": 10,
+                "stock": 7,
                 "image_url": "http://placeimg.com/640/480",
                 "created_at": "2026-08-04 09:49:57"
               },
@@ -2395,7 +2395,7 @@
                 "name": "Keyboard",
                 "description": "Quia veritatis cumque mollitia laborum commodi quos.",
                 "price": 44.7,
-                "stock": 7,
+                "stock": 1,
                 "image_url": "https://edward.name",
                 "created_at": "2026-08-04 09:08:12"
               },
@@ -2503,7 +2503,7 @@
                 "name": "Computer",
                 "description": "Sunt animi non illo ut qui autem rerum provident. Veritatis molestias quidem maxime consectetur. Ab dolorem numquam fugit dolor nesciunt eveniet.",
                 "price": 75.7,
-                "stock": 7,
+                "stock": 3,
                 "image_url": "http://shanelle.biz",
                 "created_at": "2026-08-04 09:01:03"
               },
@@ -2989,7 +2989,7 @@
                 "name": "Small Plastic Soap",
                 "description": "We need to index the 1080p USB panel!",
                 "price": 61.3,
-                "stock": 6,
+                "stock": 1,
                 "image_url": "http://placeimg.com/640/480",
                 "created_at": "2026-08-04 08:28:00"
               },
@@ -3133,7 +3133,7 @@
                 "name": "Webcam HD",
                 "description": "Webcam 1080p",
                 "price": 617,
-                "stock": 17,
+                "stock": 2,
                 "image_url": "https://s3.amazonaws.com/uifaces/faces/twitter/mangosango/128.jpg",
                 "created_at": "2026-06-29 18:01:45"
               },
@@ -3403,7 +3403,7 @@
                 "name": "multi-byte",
                 "description": "Debilito careo placeat corroboro cibo adsum asperiores conturbo cuius vulgivagus.\nTenus contego cenaculum copia.",
                 "price": 378.5,
-                "stock": 337,
+                "stock": 312,
                 "image_url": "https://energetic-omelet.name/",
                 "created_at": "2026-06-21 16:03:37"
               },
@@ -3430,7 +3430,7 @@
                 "name": "bluetooth",
                 "description": "Arbustum comprehendo adstringo caput.\nVis tandem apto deludo.",
                 "price": 345.5,
-                "stock": 153,
+                "stock": 131,
                 "image_url": "https://primary-swine.name/",
                 "created_at": "2026-06-21 15:16:19"
               },
@@ -3898,7 +3898,7 @@
                 "name": "Salad",
                 "description": "multi-byte",
                 "price": 524.5,
-                "stock": 741,
+                "stock": 305,
                 "image_url": "https://loremflickr.com/3175/3109?lock=3103719412191001",
                 "created_at": "2026-06-19 13:48:34"
               },
@@ -4132,7 +4132,7 @@
                 "name": "Cheese",
                 "description": "haptic",
                 "price": 437.15,
-                "stock": 421,
+                "stock": 182,
                 "image_url": "https://loremflickr.com/184/1469?lock=8528053121316725",
                 "created_at": "2026-06-19 13:37:13"
               },
@@ -4411,7 +4411,7 @@
                 "name": "1080p",
                 "description": "Comptus vito coerceo.\nPecus cursim calculus conatus taceo.\nHic deficio corroboro agnosco.\nCalculus comburo iure corrigo adduco tondeo conqueror.",
                 "price": 928,
-                "stock": 312,
+                "stock": 48,
                 "image_url": "https://caring-popularity.info/",
                 "created_at": "2026-06-19 13:24:02"
               },
@@ -4456,7 +4456,7 @@
                 "name": "Webcam HD",
                 "description": "Webcam 1080p",
                 "price": 49.9,
-                "stock": 12,
+                "stock": 1,
                 "image_url": "https://...",
                 "created_at": "2026-06-19 13:22:01"
               },
@@ -4519,7 +4519,7 @@
                 "name": "Bonita37",
                 "description": "well-off-cop-out",
                 "price": 310,
-                "stock": 442,
+                "stock": 257,
                 "image_url": "Alison_Schmeler8@yahoo.com",
                 "created_at": "2026-06-19 13:19:14"
               },
@@ -4690,7 +4690,7 @@
                 "name": "Webcam HD",
                 "description": "Webcam 1080p",
                 "price": 49.9,
-                "stock": 30,
+                "stock": 8,
                 "image_url": "https://...",
                 "created_at": "2026-06-19 13:13:25"
               },
@@ -4771,7 +4771,7 @@
                 "name": "Sleek Bamboo Sausages",
                 "description": "{{pro}}",
                 "price": 34.91,
-                "stock": 7,
+                "stock": 3,
                 "image_url": "https://picsum.photos/seed/f89Qf2FMSt/1068/3758",
                 "created_at": "2026-06-19 13:07:58"
               },
@@ -4888,7 +4888,7 @@
                 "name": "Webcam HD",
                 "description": "Webcam 1080p",
                 "price": 49.9,
-                "stock": 28,
+                "stock": 27,
                 "image_url": "https://...",
                 "created_at": "2026-06-16 14:00:22"
               },
@@ -5077,7 +5077,7 @@
                 "name": "Tasty Rubber Pizza",
                 "description": "Human",
                 "price": 161,
-                "stock": 7,
+                "stock": 2,
                 "image_url": "http://sydnie.name",
                 "created_at": "2026-06-11 13:08:47"
               },
@@ -5446,7 +5446,7 @@
                 "name": "Rustic Steel Tuna",
                 "description": "Alias et non voluptatum eos dolor. Perferendis voluptatem nobis quo tenetur necessitatibus dolorem nobis. Autem soluta commodi et. Vero vero et itaque amet laudantium et suscipit commodi. Ut enim quas placeat temporibus molestiae necessitatibus ea ut vitae.",
                 "price": 101.38,
-                "stock": 34,
+                "stock": 17,
                 "image_url": "http://placeimg.com/640/480",
                 "created_at": "2026-06-10 13:33:35"
               },
@@ -5714,9 +5714,9 @@
             ]
           },
           "url": "https://api.efi-academy.com/user-api/public/products",
-          "responseTime": 232,
-          "duration": 232,
-          "size": 120530
+          "responseTime": 1333,
+          "duration": 1333,
+          "size": 120524
         },
         "error": null,
         "status": "pass",
@@ -5727,11 +5727,11 @@
           {
             "description": "verify code status 200",
             "status": "pass",
-            "uid": "rfNJVwBpmc045JhlKZRDR"
+            "uid": "e8QiU28XwvvKI8_OvJxhL"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.3119189,
+        "runDuration": 1.4108030999999999,
         "name": "get 2 product",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\get 2 product",
         "path": "get 2 product.yml",
@@ -5748,16 +5748,16 @@
             "Authorization": "Bearer ********",
             "content-type": "application/json"
           },
-          "data": "{\n  \"product_id\": 456,\n  \"quantity\": 6\n}"
+          "data": "{\n  \"product_id\": 617,\n  \"quantity\": 13\n}"
         },
         "response": {
           "status": 201,
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:30 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:13 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "192",
+            "content-length": "198",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -5770,20 +5770,20 @@
             "message": "Produit ajouté au panier.",
             "cart": [
               {
-                "product_id": 456,
-                "name": "Keyboard",
-                "price": 44.7,
-                "quantity": 6,
-                "subtotal": 268.2,
-                "image_url": "https://edward.name"
+                "product_id": 617,
+                "name": "Refined Bronze Gloves",
+                "price": 32.3,
+                "quantity": 13,
+                "subtotal": 419.9,
+                "image_url": "https://..."
               }
             ],
-            "total": 268.2
+            "total": 419.9
           },
           "url": "https://api.efi-academy.com/user-api/public/cart",
-          "responseTime": 443,
-          "duration": 443,
-          "size": 192
+          "responseTime": 319,
+          "duration": 319,
+          "size": 198
         },
         "error": null,
         "status": "pass",
@@ -5794,16 +5794,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "ND8RKEf491fPqKNW8V_up"
+            "uid": "zWfVvmFO19lCzSJnCdODe"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "to2slhfRtc5gY3GuG-myG"
+            "uid": "evcdiirivGiUyiDeZItit"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.5805906,
+        "runDuration": 0.4607421,
         "name": "add product 1 on cart",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\add product 1 on cart",
         "path": "add product 1 on cart.yml",
@@ -5820,16 +5820,16 @@
             "Authorization": "Bearer ********",
             "content-type": "application/json"
           },
-          "data": "{\n  \"product_id\": 142,\n  \"quantity\": 185\n}"
+          "data": "{\n  \"product_id\": 149,\n  \"quantity\": 1\n}"
         },
         "response": {
           "status": 201,
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:31 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:14 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "316",
+            "content-length": "304",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -5842,28 +5842,28 @@
             "message": "Produit ajouté au panier.",
             "cart": [
               {
-                "product_id": 456,
-                "name": "Keyboard",
-                "price": 44.7,
-                "quantity": 6,
-                "subtotal": 268.2,
-                "image_url": "https://edward.name"
+                "product_id": 617,
+                "name": "Refined Bronze Gloves",
+                "price": 32.3,
+                "quantity": 13,
+                "subtotal": 419.9,
+                "image_url": "https://..."
               },
               {
-                "product_id": 142,
-                "name": "Bonita37",
-                "price": 310,
-                "quantity": 185,
-                "subtotal": 57350,
-                "image_url": "Alison_Schmeler8@yahoo.com"
+                "product_id": 149,
+                "name": "WebcamrfD",
+                "price": 49.9,
+                "quantity": 1,
+                "subtotal": 49.9,
+                "image_url": "https://..."
               }
             ],
-            "total": 57618.2
+            "total": 469.8
           },
           "url": "https://api.efi-academy.com/user-api/public/cart",
-          "responseTime": 474,
-          "duration": 474,
-          "size": 316
+          "responseTime": 249,
+          "duration": 249,
+          "size": 304
         },
         "error": null,
         "status": "pass",
@@ -5874,16 +5874,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "GudYw3617JNfMC91q4P-j"
+            "uid": "jljx5idmscEu3x0TNgspk"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "zZcoaLcdVBdSOuI9w1nKh"
+            "uid": "7KTV7SzJxhrBkOE8kM6Z2"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.6158585,
+        "runDuration": 0.4019071,
         "name": "add product 2 on cart ",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\add product 2 on cart",
         "path": "add product 2 on cart.yml",
@@ -5906,9 +5906,9 @@
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:31 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:14 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "443",
+            "content-length": "454",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -5918,37 +5918,37 @@
           },
           "data": {
             "success": true,
-            "message": "Commande créée. Procède au paiement via /orders/309/pay.",
+            "message": "Commande créée. Procède au paiement via /orders/346/pay.",
             "order": {
-              "id": 309,
-              "user_id": 2216,
-              "total": 57618.2,
+              "id": 346,
+              "user_id": 2233,
+              "total": 469.8,
               "status": "en_attente",
               "stripe_payment_intent_id": null,
-              "created_at": "2026-09-17 09:28:31",
-              "updated_at": "2026-09-17 09:28:31",
+              "created_at": "2026-09-17 09:47:14",
+              "updated_at": "2026-09-17 09:47:14",
               "items": [
                 {
-                  "product_id": 142,
-                  "name": "Bonita37",
-                  "unit_price": 310,
-                  "quantity": 185,
-                  "subtotal": 57350
+                  "product_id": 149,
+                  "name": "WebcamrfD",
+                  "unit_price": 49.9,
+                  "quantity": 1,
+                  "subtotal": 49.9
                 },
                 {
-                  "product_id": 456,
-                  "name": "Keyboard",
-                  "unit_price": 44.7,
-                  "quantity": 6,
-                  "subtotal": 268.2
+                  "product_id": 617,
+                  "name": "Refined Bronze Gloves",
+                  "unit_price": 32.3,
+                  "quantity": 13,
+                  "subtotal": 419.9
                 }
               ]
             }
           },
           "url": "https://api.efi-academy.com/user-api/public/orders",
-          "responseTime": 295,
-          "duration": 295,
-          "size": 443
+          "responseTime": 97,
+          "duration": 97,
+          "size": 454
         },
         "error": null,
         "status": "pass",
@@ -5959,16 +5959,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "RcnR1TcCkKa-EquD45aNM"
+            "uid": "6WPFT-zJz182j_cBMEXY0"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "nxIz66nYOz49Y5gwT_x5s"
+            "uid": "hTnZ6awxnjkXsYUwckCCl"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.3617708,
+        "runDuration": 0.1607848,
         "name": "valider la commande",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\valider la commande",
         "path": "valider la commande.yml",
@@ -5980,7 +5980,7 @@
         },
         "request": {
           "method": "POST",
-          "url": "https://api.efi-academy.com/user-api/public/orders/309/pay",
+          "url": "https://api.efi-academy.com/user-api/public/orders/346/pay",
           "headers": {
             "Authorization": "Bearer ********",
             "content-type": null
@@ -5991,9 +5991,9 @@
           "statusText": "OK",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:28:33 GMT",
+            "date": "Thu, 17 Sep 2026 09:47:15 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "195",
+            "content-length": "193",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -6005,15 +6005,15 @@
             "success": true,
             "message": "Paiement réussi. Commande payée.",
             "order_status": "payee",
-            "amount": 5761820,
+            "amount": 46980,
             "currency": "eur",
-            "payment_intent": "pi_3UGbcKKVUHcvGQIe0u1v6ZCC",
+            "payment_intent": "pi_3UGbuQKVUHcvGQIe1wwgHM79",
             "stripe_status": "succeeded"
           },
-          "url": "https://api.efi-academy.com/user-api/public/orders/309/pay",
-          "responseTime": 1182,
-          "duration": 1182,
-          "size": 195
+          "url": "https://api.efi-academy.com/user-api/public/orders/346/pay",
+          "responseTime": 920,
+          "duration": 920,
+          "size": 193
         },
         "error": null,
         "status": "pass",
@@ -6024,16 +6024,16 @@
           {
             "description": "code status 200",
             "status": "pass",
-            "uid": "F9gcd2516zynZHmQ-3IDx"
+            "uid": "BWRb-HW3Gg-7G_fm55E3f"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "uRON0I9SxggvCwAbzkohW"
+            "uid": "HGgQ6e9QQKM-mFtTqZGcT"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 1.2589252,
+        "runDuration": 0.993273,
         "name": "pay commande",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\pay commande",
         "path": "pay commande.yml",
