@@ -13,16 +13,16 @@
             "Authorization": "Bearer ********",
             "content-type": "application/json"
           },
-          "data": "{\n  \"name\": \"Guadalupe Schultz\",\n  \"email\": \"Idell.Hartmann18@yahoo.com\",\n  \"password\": \"DZTTcGWIoT64pK4\",\n  \"role\": \"user\"\n}"
+          "data": "{\n  \"name\": \"Miss Ellen Weissnat\",\n  \"email\": \"Rosa92@hotmail.com\",\n  \"password\": \"C2VjNuGCWpR317X\",\n  \"role\": \"user\"\n}"
         },
         "response": {
           "status": 201,
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:11 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:15 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "153",
+            "content-length": "147",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -34,16 +34,16 @@
             "success": true,
             "message": "Compte créé avec succès.",
             "user": {
-              "id": 2233,
-              "name": "Guadalupe Schultz",
-              "email": "Idell.Hartmann18@yahoo.com",
+              "id": 2236,
+              "name": "Miss Ellen Weissnat",
+              "email": "Rosa92@hotmail.com",
               "role": "user"
             }
           },
           "url": "https://api.efi-academy.com/user-api/public/register",
-          "responseTime": 405,
-          "duration": 405,
-          "size": 153
+          "responseTime": 302,
+          "duration": 302,
+          "size": 147
         },
         "error": null,
         "status": "pass",
@@ -54,16 +54,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "49yLt8qX_-b9j8FlGe8rc"
+            "uid": "DvY_JUh_z0cG1yOJ1_87m"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "GmKHS6wG2BvIsKspijmSC"
+            "uid": "8x2WjRL46bnL_q3TFudlx"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.6091134,
+        "runDuration": 0.5059876,
         "name": "CREATE USER",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\CREATE USER",
         "path": "CREATE USER.yml",
@@ -79,16 +79,16 @@
           "headers": {
             "content-type": "application/json"
           },
-          "data": "{\n  \"email\": \"Idell.Hartmann18@yahoo.com\",\n  \"password\": \"DZTTcGWIoT64pK4\"\n}"
+          "data": "{\n  \"email\": \"Rosa92@hotmail.com\",\n  \"password\": \"C2VjNuGCWpR317X\"\n}"
         },
         "response": {
           "status": 200,
           "statusText": "OK",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:11 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:15 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "435",
+            "content-length": "429",
             "connection": "close",
             "x-powered-by": "PHP/8.2.31",
             "access-control-allow-origin": "*",
@@ -100,18 +100,18 @@
             "message": "Connexion réussie.",
             "token_type": "Bearer",
             "expires_in": 3600,
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIzMywicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2Mzg0MzEsImV4cCI6MTc4OTY0MjAzMSwianRpIjoiOTNhZTVmNzYwYWIwNzIzMWI3NDk2NDg2OWViYWU0Y2IifQ.cn_ppt08okjMth7zB__EykcuzAvdLkXCDpRk1ndW7Lc",
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1c2VyLWFwaSIsInN1YiI6MjIzNiwicm9sZSI6InVzZXIiLCJpYXQiOjE3ODk2Mzg1NTUsImV4cCI6MTc4OTY0MjE1NSwianRpIjoiMWNlZDAwNzQxZjFkYjhmNDYyZTI4ZjNkYTU2ZWE0YTEifQ.UNITkd5qiIugU-7_Uf_-sF10lry5i3QQAP4RY6qOryI",
             "user": {
-              "id": 2233,
-              "name": "Guadalupe Schultz",
-              "email": "Idell.Hartmann18@yahoo.com",
+              "id": 2236,
+              "name": "Miss Ellen Weissnat",
+              "email": "Rosa92@hotmail.com",
               "role": "user"
             }
           },
           "url": "https://api.efi-academy.com/user-api/public/login",
-          "responseTime": 251,
-          "duration": 251,
-          "size": 435
+          "responseTime": 232,
+          "duration": 232,
+          "size": 429
         },
         "error": null,
         "status": "pass",
@@ -122,16 +122,16 @@
           {
             "description": "code status 200",
             "status": "pass",
-            "uid": "jGiG3PfckpwJOd8M_gH8E"
+            "uid": "YDgAKs-jNjPxipdh-JQ4-"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "XHrGTJ1jBYWcGk5Jd9N-K"
+            "uid": "ImxgKDqNwfZd0SsYIxfcw"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.3358851,
+        "runDuration": 0.3057988,
         "name": "login",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\login",
         "path": "login.yml",
@@ -154,7 +154,7 @@
           "statusText": "OK",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:12 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:15 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "close",
@@ -167,6 +167,15 @@
           "data": {
             "success": true,
             "products": [
+              {
+                "id": 704,
+                "name": "Ms.",
+                "description": "Mr.",
+                "price": 75.5,
+                "stock": 27,
+                "image_url": "https://babyish-fen.info",
+                "created_at": "2026-09-17 09:48:43"
+              },
               {
                 "id": 703,
                 "name": "Handmade Plastic Shirt",
@@ -946,7 +955,7 @@
                 "name": "Refined Bronze Gloves",
                 "description": "Bacon",
                 "price": 32.3,
-                "stock": 57,
+                "stock": 44,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 12:18:56"
               },
@@ -1810,7 +1819,7 @@
                 "name": "Salad",
                 "description": "CSV",
                 "price": 92.78,
-                "stock": 55,
+                "stock": 34,
                 "image_url": "https://...",
                 "created_at": "2026-09-16 09:41:49"
               },
@@ -1963,7 +1972,7 @@
                 "name": "Hat",
                 "description": "Le produit",
                 "price": 53,
-                "stock": 10,
+                "stock": 7,
                 "image_url": "http://placeimg.com/640/480",
                 "created_at": "2026-08-04 09:56:57"
               },
@@ -4465,7 +4474,7 @@
                 "name": "WebcamrfD",
                 "description": "Webcam 1080p",
                 "price": 49.9,
-                "stock": 25,
+                "stock": 24,
                 "image_url": "https://...",
                 "created_at": "2026-06-19 13:21:52"
               },
@@ -5714,9 +5723,9 @@
             ]
           },
           "url": "https://api.efi-academy.com/user-api/public/products",
-          "responseTime": 1333,
-          "duration": 1333,
-          "size": 120524
+          "responseTime": 340,
+          "duration": 340,
+          "size": 120665
         },
         "error": null,
         "status": "pass",
@@ -5727,11 +5736,11 @@
           {
             "description": "verify code status 200",
             "status": "pass",
-            "uid": "e8QiU28XwvvKI8_OvJxhL"
+            "uid": "XdCeBbqU7u7IX_xtT7-Qu"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 1.4108030999999999,
+        "runDuration": 0.4200859,
         "name": "get 2 product",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\get 2 product",
         "path": "get 2 product.yml",
@@ -5748,16 +5757,16 @@
             "Authorization": "Bearer ********",
             "content-type": "application/json"
           },
-          "data": "{\n  \"product_id\": 617,\n  \"quantity\": 13\n}"
+          "data": "{\n  \"product_id\": 105,\n  \"quantity\": 43\n}"
         },
         "response": {
           "status": 201,
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:13 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:16 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "198",
+            "content-length": "248",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -5770,20 +5779,20 @@
             "message": "Produit ajouté au panier.",
             "cart": [
               {
-                "product_id": 617,
-                "name": "Refined Bronze Gloves",
-                "price": 32.3,
-                "quantity": 13,
-                "subtotal": 419.9,
-                "image_url": "https://..."
+                "product_id": 105,
+                "name": "Practical Gold Salad",
+                "price": 949.53,
+                "quantity": 43,
+                "subtotal": 40829.79,
+                "image_url": "https://loremflickr.com/1139/933?lock=1014870031231786"
               }
             ],
-            "total": 419.9
+            "total": 40829.79
           },
           "url": "https://api.efi-academy.com/user-api/public/cart",
-          "responseTime": 319,
-          "duration": 319,
-          "size": 198
+          "responseTime": 114,
+          "duration": 114,
+          "size": 248
         },
         "error": null,
         "status": "pass",
@@ -5794,16 +5803,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "zWfVvmFO19lCzSJnCdODe"
+            "uid": "Nv6rhZADWPRRnumkHbgTa"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "evcdiirivGiUyiDeZItit"
+            "uid": "vCyhivfHlaxwuegVz21im"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.4607421,
+        "runDuration": 0.2416326,
         "name": "add product 1 on cart",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\add product 1 on cart",
         "path": "add product 1 on cart.yml",
@@ -5820,16 +5829,16 @@
             "Authorization": "Bearer ********",
             "content-type": "application/json"
           },
-          "data": "{\n  \"product_id\": 149,\n  \"quantity\": 1\n}"
+          "data": "{\n  \"product_id\": 217,\n  \"quantity\": 8\n}"
         },
         "response": {
           "status": 201,
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:14 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:16 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "304",
+            "content-length": "402",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -5842,28 +5851,28 @@
             "message": "Produit ajouté au panier.",
             "cart": [
               {
-                "product_id": 617,
-                "name": "Refined Bronze Gloves",
-                "price": 32.3,
-                "quantity": 13,
-                "subtotal": 419.9,
-                "image_url": "https://..."
+                "product_id": 105,
+                "name": "Practical Gold Salad",
+                "price": 949.53,
+                "quantity": 43,
+                "subtotal": 40829.79,
+                "image_url": "https://loremflickr.com/1139/933?lock=1014870031231786"
               },
               {
-                "product_id": 149,
-                "name": "WebcamrfD",
-                "price": 49.9,
-                "quantity": 1,
-                "subtotal": 49.9,
-                "image_url": "https://..."
+                "product_id": 217,
+                "name": "Webcam HD",
+                "price": 180.49,
+                "quantity": 8,
+                "subtotal": 1443.92,
+                "image_url": "https://loremflickr.com/2191/254?lock=8219752782242872"
               }
             ],
-            "total": 469.8
+            "total": 42273.71
           },
           "url": "https://api.efi-academy.com/user-api/public/cart",
-          "responseTime": 249,
-          "duration": 249,
-          "size": 304
+          "responseTime": 150,
+          "duration": 150,
+          "size": 402
         },
         "error": null,
         "status": "pass",
@@ -5874,16 +5883,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "jljx5idmscEu3x0TNgspk"
+            "uid": "ITwXXy72bEc55umnBsUAZ"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "7KTV7SzJxhrBkOE8kM6Z2"
+            "uid": "tzW6erfF2qEIxaf9lXLmF"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.4019071,
+        "runDuration": 0.2904897,
         "name": "add product 2 on cart ",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\add product 2 on cart",
         "path": "add product 2 on cart.yml",
@@ -5906,9 +5915,9 @@
           "statusText": "Created",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:14 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:17 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "454",
+            "content-length": "466",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -5918,37 +5927,37 @@
           },
           "data": {
             "success": true,
-            "message": "Commande créée. Procède au paiement via /orders/346/pay.",
+            "message": "Commande créée. Procède au paiement via /orders/352/pay.",
             "order": {
-              "id": 346,
-              "user_id": 2233,
-              "total": 469.8,
+              "id": 352,
+              "user_id": 2236,
+              "total": 42273.71,
               "status": "en_attente",
               "stripe_payment_intent_id": null,
-              "created_at": "2026-09-17 09:47:14",
-              "updated_at": "2026-09-17 09:47:14",
+              "created_at": "2026-09-17 09:49:17",
+              "updated_at": "2026-09-17 09:49:17",
               "items": [
                 {
-                  "product_id": 149,
-                  "name": "WebcamrfD",
-                  "unit_price": 49.9,
-                  "quantity": 1,
-                  "subtotal": 49.9
+                  "product_id": 105,
+                  "name": "Practical Gold Salad",
+                  "unit_price": 949.53,
+                  "quantity": 43,
+                  "subtotal": 40829.79
                 },
                 {
-                  "product_id": 617,
-                  "name": "Refined Bronze Gloves",
-                  "unit_price": 32.3,
-                  "quantity": 13,
-                  "subtotal": 419.9
+                  "product_id": 217,
+                  "name": "Webcam HD",
+                  "unit_price": 180.49,
+                  "quantity": 8,
+                  "subtotal": 1443.92
                 }
               ]
             }
           },
           "url": "https://api.efi-academy.com/user-api/public/orders",
-          "responseTime": 97,
-          "duration": 97,
-          "size": 454
+          "responseTime": 525,
+          "duration": 525,
+          "size": 466
         },
         "error": null,
         "status": "pass",
@@ -5959,16 +5968,16 @@
           {
             "description": "code status 201",
             "status": "pass",
-            "uid": "6WPFT-zJz182j_cBMEXY0"
+            "uid": "QyeOJ2HJV6nu4oFlzVBHX"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "hTnZ6awxnjkXsYUwckCCl"
+            "uid": "VZKK9nmUs1Tjy62dZgzHR"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.1607848,
+        "runDuration": 0.5889012,
         "name": "valider la commande",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\valider la commande",
         "path": "valider la commande.yml",
@@ -5980,7 +5989,7 @@
         },
         "request": {
           "method": "POST",
-          "url": "https://api.efi-academy.com/user-api/public/orders/346/pay",
+          "url": "https://api.efi-academy.com/user-api/public/orders/352/pay",
           "headers": {
             "Authorization": "Bearer ********",
             "content-type": null
@@ -5991,9 +6000,9 @@
           "statusText": "OK",
           "headers": {
             "server": "nginx",
-            "date": "Thu, 17 Sep 2026 09:47:15 GMT",
+            "date": "Thu, 17 Sep 2026 09:49:18 GMT",
             "content-type": "application/json; charset=utf-8",
-            "content-length": "193",
+            "content-length": "195",
             "connection": "close",
             "vary": "Authorization",
             "x-powered-by": "PHP/8.2.31",
@@ -6005,15 +6014,15 @@
             "success": true,
             "message": "Paiement réussi. Commande payée.",
             "order_status": "payee",
-            "amount": 46980,
+            "amount": 4227371,
             "currency": "eur",
-            "payment_intent": "pi_3UGbuQKVUHcvGQIe1wwgHM79",
+            "payment_intent": "pi_3UGbwPKVUHcvGQIe1vGpgO9a",
             "stripe_status": "succeeded"
           },
-          "url": "https://api.efi-academy.com/user-api/public/orders/346/pay",
-          "responseTime": 920,
-          "duration": 920,
-          "size": 193
+          "url": "https://api.efi-academy.com/user-api/public/orders/352/pay",
+          "responseTime": 997,
+          "duration": 997,
+          "size": 195
         },
         "error": null,
         "status": "pass",
@@ -6024,16 +6033,16 @@
           {
             "description": "code status 200",
             "status": "pass",
-            "uid": "BWRb-HW3Gg-7G_fm55E3f"
+            "uid": "VNj-E6I3EB72F4b1uMxnI"
           },
           {
             "description": "body res=req",
             "status": "pass",
-            "uid": "HGgQ6e9QQKM-mFtTqZGcT"
+            "uid": "ubfeXe0uR32XVcpDrsAX_"
           }
         ],
         "shouldStopRunnerExecution": false,
-        "runDuration": 0.993273,
+        "runDuration": 1.0746927,
         "name": "pay commande",
         "suitename": "C:\\Users\\adam\\OneDrive\\Documents\\bruno\\Test API bruno\\collections\\Market\\pay commande",
         "path": "pay commande.yml",

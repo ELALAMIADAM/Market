@@ -7,7 +7,7 @@ pipeline {
             
             agent{
                 docker{
-                    image 'alpine/bruno:latest'
+                    image 'usebruno/cli:latest'
                     args '-u root --entrypoint='
                 }
             }
@@ -28,7 +28,7 @@ pipeline {
                 stage('run tests'){
                     steps {
                     
-                        sh 'npx bru run --env-file environments/preprod.yml --reporter-json results.json --reporter-junit allure-results/Test-results.xml --reporter-html results.html'}
+                        sh 'bru run --env-file environments/preprod.yml --reporter-json results.json --reporter-junit allure-results/Test-results.xml --reporter-html results.html'}
                 }
             }
         }
