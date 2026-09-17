@@ -28,7 +28,7 @@ pipeline {
                 stage('run tests'){
                     steps {
                     
-                        sh 'bru run --env-file environments/preprod.yml --reporter-json results.json --reporter-junit allure-results/Test-results.xml --reporter-html results.html'}
+                        sh 'npx bru run --env-file environments/preprod.yml --reporter-json results.json --reporter-junit allure-results/Test-results.xml --reporter-html results.html'}
                 }
             }
         }
