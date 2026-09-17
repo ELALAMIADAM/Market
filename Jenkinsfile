@@ -37,7 +37,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'allure-results/*, results.json, results.html', 
+            archiveArtifacts artifacts: 'allure-results/*', 
             allowEmptyArchive: true
             allure includeProperties: false,
                    jdk: '',
